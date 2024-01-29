@@ -3,7 +3,7 @@
 
 # Ignora la carpeta node_modules
 #node_modules
-
+00-utilidades-de-proyectos/01-Utilidades_proyecto1/diseños/*.png
 
 # Ignora todos los archivos de texto
 *.txt
