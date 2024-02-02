@@ -321,3 +321,12 @@ h1, h2, h3, h4, h5 {
     -ms-border-radius: 1rem 0rem 0rem 1rem;
     -o-border-radius: 1rem 0rem 0rem 1rem;
 }
+
+/* About Me Page */
+.contente__about {
+    display: block;
+    padding: 6rem 3rem;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+}
