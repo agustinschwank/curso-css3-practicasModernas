@@ -12,5 +12,7 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
 - Generacion de estilos al sitio y Pagina principal
 - Estilos en aside blue, y menu
 - Maquetacion de las pagina about.html
+    - Creacion del scrollbar en css/scroll.css (Para chromium)
+    - (05/02/24) - Finalizacion de la maquetacion de pagina about 
 
 ### End

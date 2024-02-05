@@ -1,0 +1,58 @@
+/* Var defines styles scrollbar */
+:root {
+    --color-scroll: #f2f2f2;
+    --color-scroll-brackground: #eeeeee;
+    --color-scroll-tranparent: transparent;
+}
+
+/* Scroll for Chromium */
+.content__page::-webkit-scrollbar {
+    width: 3rem;
+    background-color: var(--color-scroll-transparent);
+}
+
+.content__page::-webkit-scrollbar-thumb {
+    border: 1rem solid var(--color-scroll-tranparent);
+    box-shadow: none;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+}
+
+.content__page:hover::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 1rem var(--color-scroll-brackground);
+}
+
+.content__page:hover::-webkit-scrollbar-thumb:hover {
+    border: 1rem solid var(--color-scroll-tranparent);
+    box-shadow: inset 0 0 0 1rem var(--color-secondary);
+}
+
+.content__page::-webkit-scrollbar-track {
+    background-color: var(--color-scroll-tranparent);
+    margin: 3rem 0rem;
+}
+
+/* aside */
+.layout__aside::-webkit-scrollbar {
+    width: 3rem;
+    background-color: var(--color-secondary);
+}
+
+.layout__aside::-webkit-scrollbar-thumb {
+    border: 1rem solid var(--color-scroll-tranparent);
+    box-shadow: none;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 1rem var(--color-primary);
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb:hover {
+    border: 1rem solid var(--color-scroll-tranparent);
+}
+
+.layout__aside::-webkit-scrollbar-track {
+    background-color: var(--color-scroll-tranparent);
+}
