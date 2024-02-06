@@ -1,4 +1,5 @@
 # Curso CSS3 (Practicas Modernas) 2024
+
 El diseño web evoluciona constantemente, y en este curso, exploraremos las técnicas más actuales que te permitirán destacar en la creación de interfaces atractivas y totalmente responsivas.
 
 A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño moderno, desde la adaptabilidad a diferentes dispositivos hasta la creación de animaciones fluidas y efectos visuales cautivadores.
@@ -14,5 +15,10 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
 - Maquetacion de las pagina about.html
     - Creacion del scrollbar en css/scroll.css (Para chromium)
     - (05/02/24) - Finalizacion de la maquetacion de pagina about 
+- (06/02/24) - HTML y Maqutacion de la pagina resumeCV.html
+    - Correccion de errores en paginas html
+    - Preparacion de la pagina portfolio.html
+- (07/02/24) - 
+
 
 ### End
