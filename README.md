@@ -18,7 +18,10 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
 - (06/02/24) - HTML y Maqutacion de la pagina resumeCV.html
     - Correccion de errores en paginas html
     - Preparacion de la pagina portfolio.html
-- (07/02/24) - 
+- (07/02/24) - Tareas Realizadas
+    - HTML y Maquetacion de pagina portfolio.html
+    - HTML Y Maquetacion de la pagina de nuestro blog.html
+    - HTML y Maquetacion de la pagina de contact.html
 
 
 ### End
