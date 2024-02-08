@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Fonts -->
     <link type="text/css" rel="stylesheet" href="./assets/css/resetStyles.css"/>
@@ -12,6 +12,8 @@
     <!-- Personal Styles -->
     <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"/>
     <link type="text/css" rel="stylesheet" href="./assets/css/scroll.css"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/loader.css"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/responsive.css"/>
 
     <title>Portafolio - Curso CSS3 Moderno</title>
 </head>
@@ -96,6 +98,12 @@
             </section>
         </aside>
 
+        <!-- Resposive MENU (info user) -->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
         <!-- Primary Content -->
         <main class="layout__content">
             <section class="content__page contente__contact">
@@ -124,20 +132,18 @@
                         </div>
                     </section>
                     <section class="contact__box">
-                        <div class="contact__map">
-                            <!-- Lo vemos en JS
-                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26784.511770010835!2d-60.66050163268705!3d-32.949320413975016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1707330180151!5m2!1ses-419!2sar"></iframe>
-                                -->
+                        <div class="contact__map" id="load-map">
+                            <span class="loader position"></span>
                         </div>
                         <header class="contact__box-header">
-                            <h3 class="contact-form__subtitle">Como puedo <span class="title__color">ayudarte</span></h3>
+                            <h3 class="contact-form__subtitle">How can I <span class="title__color">help you</span></h3>
                         </header>
                         <form class="contact__form">
                             <div class="form__content">
                                 <section class="form__left">
                                     <div class="form__group">
                                         <input type="text" class="form__input" name="name" required placeholder="Neme*"/>
-                                        <label for="name" class="form__label">Nombre*</label>
+                                        <label for="name" class="form__label">Name*</label>
                                     </div>
                                     <div class="form__group">
                                         <input type="text" class="form__input" name="email" required placeholder="email*"/>
@@ -161,7 +167,8 @@
                 </div>
             </section>
         </main>
-
     </div>
+    <script src="./assets/js/menu.js" defer></script>
+    <script src="./assets/js/map.js" defer></script>
 </body>
 </html>

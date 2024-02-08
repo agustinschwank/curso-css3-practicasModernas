@@ -22,6 +22,12 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
     - HTML y Maquetacion de pagina portfolio.html
     - HTML Y Maquetacion de la pagina de nuestro blog.html
     - HTML y Maquetacion de la pagina de contact.html
-
+- (08/02/24) - Tareas Realizadas
+    - Correcciones de detalles
+    - Javascrip + loader css en iframe del mapa de google en pagina de contact.html
+    - Adapatacion del sitio para que sea resposive
+    - Creacion del HTML del menu o nav resposive
+    - Programacion en js buttons (visible o invisible el menu toggle)
+    - Resize en js mejora en toggle
 
 ### End

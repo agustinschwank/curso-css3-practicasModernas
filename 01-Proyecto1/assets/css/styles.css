@@ -1336,7 +1336,7 @@ h1, h2, h3, h4, h5 {
 .form__input--textare {
     display: block;
     resize: none;
-    height: 100%;
+    height: calc(100% - 3rem);
 }
 
 .form__buttom {
@@ -1364,6 +1364,16 @@ h1, h2, h3, h4, h5 {
     color: var(--color-primary);
 }
 
+/* Map */
+.contact__map {
+    width: 100%;
+    min-height: 15rem;
+    margin-bottom: 3.5rem;
+    overflow: hidden;
+}
 
-
+.contact__iframe {
+    width: 100%;
+    height: 14rem;
+}
 
