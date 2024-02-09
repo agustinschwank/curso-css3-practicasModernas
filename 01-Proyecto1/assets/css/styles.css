@@ -19,7 +19,7 @@
 
 /* General Styles */
 html {
-    font-size: 10px;
+    font-size: 62.5%; /* En lugar de px, equivale a 10px*/
 }
 
 body {
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5 {
     display: block;
     position: absolute;
     top: 0;
-    right: -100px;
+    right: -10rem;
     min-width: 10rem;
     background-color: var(--color-transparent);
 }
@@ -365,10 +365,10 @@ h1, h2, h3, h4, h5 {
 .contact__title::after {
     content:"";
     position: absolute;
-    width: 50px;
-    height: 25px;
-    top: 20px;
-    right: -20px;
+    width: 5rem;
+    height: 2,5rem;
+    top: 2rem;
+    right: -2rem;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0%, transparent 100% );
     background-size: 0.6rem 0.6rem;
 }
@@ -451,10 +451,10 @@ h1, h2, h3, h4, h5 {
 .contact-form__subtitle::after {
     content:"";
     position: absolute;
-    width: 30px;
-    height: 18px;
-    top: 17px;
-    right: -10px;
+    width: 3rem;
+    height: 1.8rem;
+    top: 1.7rem;
+    right: -1rem;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0%, transparent 100% );
     background-size: 0.6rem 0.6rem;
 }
@@ -584,7 +584,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .clients__img {
-    width: 150px;
+    width: 15rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -834,7 +834,7 @@ h1, h2, h3, h4, h5 {
     position: absolute;
     top: 0;
     left: 30%; /*en este caso lo mismos que el timeline__header*/
-    bottom: -15px;
+    bottom: -1.5rem;
     width: 1px;
     background-color: var(--color-border-reviews);
 }

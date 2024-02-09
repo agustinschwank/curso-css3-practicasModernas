@@ -29,5 +29,14 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
     - Creacion del HTML del menu o nav resposive
     - Programacion en js buttons (visible o invisible el menu toggle)
     - Resize en js mejora en toggle
+- (09/02/24) - Ultimando Detalles del proyecto y finalizando
+    - Accesibilidad web
+    - Mejora del diseño adaptable
+
+# Proyecto 2 "Development Agency"
+## Listado o Estado del proyecto
+
+- (09/02/24) - Preparacion de archivos necesarios para el proyecto 2 de Development Agency
+
 
 ### End
