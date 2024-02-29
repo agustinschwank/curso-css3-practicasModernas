@@ -37,6 +37,7 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
 ## Listado o Estado del proyecto
 
 - (09/02/24) - Preparacion de archivos necesarios para el proyecto 2 de Development Agency
+    - (29/02/24) - Repasamos, refrescamos memoria y nos ponemos al dia.
 
 
 ### End

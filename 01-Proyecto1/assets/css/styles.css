@@ -973,16 +973,18 @@ h1, h2, h3, h4, h5 {
 }
 
 .certificate__logo {
-    width: 15rem;
+    min-width: 13rem;
+    max-width: 13rem;
     height: 100%;
     background-color: var(--color-border-reviews);
-    padding: 2.5rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .certificate__img {
+    display: block;
     width: 100%;
 }
 
