@@ -49,10 +49,12 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
     - Seccion Noticias 
     - Seccion Contacto
     - Footer
-- (04/03/24) - Realizaremos Iniciacion de la estilizacion en CSS3
+- (05/03/24) - Iniciacion de la estilizacion en CSS3
     - Estilos Generales
     - Estilos a Menu de navegacion
+- (06/03/24) 
     - Banner (etc);
+    - ....
 
 
 ### End
