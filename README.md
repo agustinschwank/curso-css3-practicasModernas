@@ -52,9 +52,10 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
 - (05/03/24) - Iniciacion de la estilizacion en CSS3
     - Estilos Generales
     - Estilos a Menu de navegacion
-- (06/03/24) 
-    - Banner (etc);
-    - ....
+- (07/03/24) 
+    - Estilos al Banner Principal
+    - Animacion de los Shapes del Banner Principal, creada en hoja de estilos separada > animations.css
+    - Estilos en la seccion de Servicios (Completa con Shapes)
 
 
 ### End
