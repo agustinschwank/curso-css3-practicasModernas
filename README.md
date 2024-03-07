@@ -57,5 +57,6 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
     - Animacion de los Shapes del Banner Principal, creada en hoja de estilos separada > animations.css
     - Estilos en la seccion de Servicios (Completa con Shapes)
     - Estilos para la seccion de Proyectos
+    -- (estilizar shapes)
 
 ### End
