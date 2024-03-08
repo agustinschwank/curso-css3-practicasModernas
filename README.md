@@ -62,5 +62,8 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
     - Retoque en seccion Servicios y seccion projecto (:hover links)
     - Estilos para la seccion de Estadisticas (Stadistics)
     - Estilos en la seccion Reviews (comentarios)
+    - Estilos para la seccion de Best Clients (Mejores Clientes)
+    - Estilos en seccion Last News (Ultimas Noticias)
+    
 
 ### End
