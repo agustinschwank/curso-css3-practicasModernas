@@ -64,6 +64,9 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
     - Estilos en la seccion Reviews (comentarios)
     - Estilos para la seccion de Best Clients (Mejores Clientes)
     - Estilos en seccion Last News (Ultimas Noticias)
-    
+    - Estilos de Contacto y animaciones (reutilizadas banner principal)
+- (11/03/24)
+    - Estilos para el Footer (Top - Middle - Bottom) y pie de pagina
+    - Preparacion para realizar los media query (Responsive)
 
 ### End
