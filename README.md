@@ -32,6 +32,7 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
 - (09/02/24) - Ultimando Detalles del proyecto y finalizando
     - Accesibilidad web
     - Mejora del diseño adaptable
+- Fin del Proyecto 1 "Portafolio"
 
 # Proyecto 2 "Development Agency"
 ## Listado o Estado del proyecto
@@ -68,5 +69,13 @@ A lo largo de este curso, nos enfocaremos en abordar los desafíos del diseño m
 - (11/03/24)
     - Estilos para el Footer (Top - Middle - Bottom) y pie de pagina
     - Preparacion para realizar los media query (Responsive)
+- (12/03/24)
+    - Realizando el sitio web en responsive con los distintos media query necesarios para ajustar y que todo se vea correcto
+    - Creacion de la Hoja de Stilos css para version dark__mode
+    - Creacion de menu en vesion movil
+    - creacion de botton para pasar de modo light a modo dark
+    - Realizacion del fichero JS para manejar el boton dark (breve intro a local storage o explicacion (no requerido solo fin didactico))
+    - Realizacion del menu sticky, (al realizar scroll menu fijo parte superior)
+- Fin del Proyecto 2 "Development Agency"
 
 ### End

@@ -13,13 +13,106 @@
     <!-- Styles -->
     <link type="text/css" rel="stylesheet" href="./assets/css/resetStyles.css"/>
     <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="./assets/css/styles_dark.css"/>-->
     <link type="text/css" rel="stylesheet" href="./assets//css/responsiveStyles.css"/>
     <link type="text/css" rel="stylesheet" href="./assets/css/animations.css"/>
 
     <!-- JavaScript-->
+    <script src="./assets/js/menu.js" defer></script>
+    <script src="./assets/js/navbarScroll.js" defer></script>
+    <script src="./assets/js/dark.js" defer></script>
 
 </head>
 <body>
+    <!-- Bottom  Dark Mode -->
+    <div class="switch">
+        <button class="switch__btn">
+            <span class="switch__icon--light"><i class="fa-solid fa-moon"></i></span>
+            <span class="switch__icon--dark"><i class="fa-solid fa-sun"></i></span>
+        </button>
+    </div>
+    <!-- Nevabar Resposive -->
+    <div class="menu-mobile">
+        <heder class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a href="#" class="menu-mobile__link-logo">
+                    <img class="menu-mobile__logo" src="./assets/img/logo1.png" alt="logo website"/>
+                </a>
+            </div>
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon fa-solid fa-xmark"></i>
+            </button>
+        </heder>
+
+        <div class="menu-mobile__body">
+            <!-- Navegation -->
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Home</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Services<i class="menu-mobile__icon fa-solid fa-chevron-down"></i></a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Web Design</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Web Development</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">App Development</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Consulting Web</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Portfolio<i class="menu-mobile__icon fa-solid fa-chevron-down"></i></a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Web Design</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Web Developement</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">App Development</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Consulting Web</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Blog<i class="menu-mobile__icon fa-solid fa-chevron-down"></i></a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Web Design</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Web Development</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">App Development</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__title">Consulting Web</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Workgroup</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__title">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Layout Principal -->
     <div class="layout">
         <!-- MENU -->
         <section class="layout__menu">
@@ -29,6 +122,14 @@
                     <a href="#" class="navbar__link-logo">
                         <img src="./assets/img/logo1.png" class="navbar__logo-light"/>
                     </a>
+                </div>
+                <!-- Buttom Navegation -->
+                <div class="navbar__movile-btn">
+                    <button class="movile-btn__wrap">
+                        <span class="movile-btn__line"></span>
+                        <span class="movile-btn__line"></span>
+                        <span class="movile-btn__line"></span>
+                    </button>
                 </div>
                 <!-- Navegation -->
                 <nav class="navber__nav">
