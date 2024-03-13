@@ -99,8 +99,21 @@ body {
 .nav__icon {
     font-size: 1rem;
     font-weight: bold;
-    padding-left: 0.2rem;
+    margin-left: 0.5rem;
     vertical-align: center;
+}
+
+.nav_icon--move {
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
 }
 
 .nav__title:hover {
@@ -126,6 +139,14 @@ body {
 .nav__title:hover::before {
     width: 100%;
     opacity: 1;
+}
+
+.nav__title:hover .nav_icon--move {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
 }
 
 .nav__submenu {

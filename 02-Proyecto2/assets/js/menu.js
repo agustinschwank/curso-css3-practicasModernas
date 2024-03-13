@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (e)=>{
     
     const mobile__btn = document.querySelector('.navbar__movile-btn');
     const menu__mobile = document.querySelector('.menu-mobile');
-    const btn_close = document.querySelector('.menu-mobile__close')
+    const btn_close = document.querySelector('.menu-mobile__close');
 
     const show__hidden = () => {
         let show = document.querySelector('.menu-mobile--show');
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', (e)=>{
     /* Submenu */
 
     const menu_items = document.querySelectorAll('.menu-mobile__item');
+    
 
     menu_items.forEach(menu_item => {
         menu_item.addEventListener('click', (event) => {
