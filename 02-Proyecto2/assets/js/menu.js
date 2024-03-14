@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', (e)=>{
     const mobile__btn = document.querySelector('.navbar__movile-btn');
     const menu__mobile = document.querySelector('.menu-mobile');
     const btn_close = document.querySelector('.menu-mobile__close');
+    
 
     const show__hidden = () => {
         let show = document.querySelector('.menu-mobile--show');
@@ -28,10 +29,11 @@ document.addEventListener('DOMContentLoaded', (e)=>{
     /* Submenu */
 
     const menu_items = document.querySelectorAll('.menu-mobile__item');
-    
 
-    menu_items.forEach(menu_item => {
-        menu_item.addEventListener('click', (event) => {
+    menu_items.forEach((menu_item)=>{
+        menu_item.addEventListener('click', ()=>{
+            let aElement = menu_item.firstElementChild;
+            let iElement = aElement.lastChild;
             let submenu = menu_item.lastElementChild;
             let preview_submenu = menu_item.previousElementSibling;
 
@@ -45,9 +47,20 @@ document.addEventListener('DOMContentLoaded', (e)=>{
                     preview_submenu.style.display = 'none';
                 } 
                 
+            };
+    
+            if(iElement.classList){
+                if (!iElement.classList.contains('nav__icon--mobile-move')) {
+                    iElement.classList.add('nav__icon--mobile-move');
+                    iElement.classList.remove('nav__icon--move');
+                } else {
+                    iElement.classList.add('nav__icon--move');
+                    iElement.classList.remove('nav__icon--mobile-move');
+                }
             }
         });
     });
+
 
 
 

@@ -103,7 +103,7 @@ body {
     vertical-align: center;
 }
 
-.nav_icon--move {
+.nav__icon--move {
     transition: all 300ms ease-in-out;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
@@ -114,6 +114,19 @@ body {
     -moz-transform: rotate(0);
     -ms-transform: rotate(0);
     -o-transform: rotate(0);
+}
+
+.nav__icon--mobile-move {
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
 }
 
 .nav__title:hover {
@@ -141,7 +154,7 @@ body {
     opacity: 1;
 }
 
-.nav__title:hover .nav_icon--move {
+.nav__title:hover .nav__icon--move {
     transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
