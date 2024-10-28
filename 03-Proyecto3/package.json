@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-3_css3_y_html5_2024",
+  "version": "1.0.0",
+  "description": "Este proyecto es pratica de cursos html5 y css3 avanzado ",
+  "main": "index.js",
+  "scripts": {
+    "build-css-resetStyles": "postcss src/css/resetStyles.css --use autoprefixer -o public/assets/css/resetStyles.css -w",
+    "build-css-styles": "postcss src/css/styles.css --use autoprefixer -o public/assets/css/styles.css -w",
+    "minify-css-resetStyles": "cleancss public/assets/css/resetStyles.css -o public/assets/css/resetStyles.min.css --watch",
+    "minify-css-styles": "cleancss public/assets/css/styles.css -o public/assets/css/styles.min.css --watch",
+    "wait-css-resetStyles": "wait-on public/assets/css/resetStyles.css",
+    "wait-css-styles": "wait-on public/assets/css/styles.css",
+    "build-css-all": "concurrently \"npm run build-css-resetStyles\" \"npm run build-css-styles\" ",
+    "minify-css-all": "concurrently \"npm run wait-css-resetStyles && npm run minify-css-resetStyles\" \"npm run wait-css-styles && npm run minify-css-styles\" ",
+    "start": "concurrently \"npm run build-css-all\" \"npm run minify-css-all\" "
+  },
+  "author": "Agustin Schwank",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "clean-css-cli": "^5.6.3",
+    "concurrently": "^9.0.1",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "wait-on": "^8.0.1"
+  }
+}

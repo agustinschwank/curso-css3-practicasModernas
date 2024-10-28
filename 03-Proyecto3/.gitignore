@@ -1,0 +1,4 @@
+#Ignor Node_modules
+Node_modules
+public/assets/fonts/fontawesome-free-6.1.2-web
+public/assets/fonts/montserrat

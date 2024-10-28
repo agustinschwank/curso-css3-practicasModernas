@@ -5,6 +5,7 @@
 #node_modules
 00-utilidades-de-proyectos/01-Utilidades_proyecto1/diseños/*.png
 00-utilidades-de-proyectos/02-Utilidades_proyecto2/diseños/*.png
+00-utilidades-de-proyectos/03-Utilidades_proyecto3/*
 
 # Ignora todos los archivos de texto
 *.txt
