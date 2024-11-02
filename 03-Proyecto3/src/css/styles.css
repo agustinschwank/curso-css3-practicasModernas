@@ -117,8 +117,7 @@ body {
 }
 
 .search__input {
-    display: none; /*! TEMPORAL */
-    width: 20rem;
+    width: 0rem;
     height: 100%;
     font-size: 1.6rem;
     background-color: var(--color-secondary);

@@ -12,10 +12,12 @@
     "wait-css-styles": "wait-on public/assets/css/styles.css",
     "build-css-all": "concurrently \"npm run build-css-resetStyles\" \"npm run build-css-styles\" ",
     "minify-css-all": "concurrently \"npm run wait-css-resetStyles && npm run minify-css-resetStyles\" \"npm run wait-css-styles && npm run minify-css-styles\" ",
+    
     "build-js-main": "babel src/js/main.js -o public/assets/js/main.js --watch",
     "minify-js-main": "terser public/assets/js/main.js -o public/assets/js/main.min.js",
     "wait-js-main": "wait-on public/assets/js/main.js",
     "build-js-all": "concurrently \"npm run build-js-main\" \"npm run wait-js-main && npm run minify-js-main\" ",
+    
     "start": "concurrently \"npm run build-css-all\" \"npm run minify-css-all\" \"npm run build-js-all\" "
   },
   "author": "Agustin Schwank",
@@ -27,6 +29,7 @@
     "autoprefixer": "^10.4.20",
     "clean-css-cli": "^5.6.3",
     "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
     "terser": "^5.36.0",
